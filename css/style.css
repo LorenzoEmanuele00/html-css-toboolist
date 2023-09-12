@@ -5,17 +5,53 @@
     font-family: 'Almarai', sans-serif;
 }
 
-header h1{  /* title */
+header h1 {  /* title */
     display: inline-block;
     vertical-align: middle;
-    /* ricordati font */
 }
 
 header img {
     vertical-align: middle;
 }
 
-.container-title {
+.container-title /* { title and logo */
     padding: 10px 20px;
 }
 
+main {
+    background-color: rgb(243, 243, 243);
+    padding-top: 40px;
+}
+
+.container-main { /* main block container */
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    
+}
+
+nav { /* button position */
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+div button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(174, 174, 174);
+}
+
+#task {
+    background-color: rgba(0, 149, 255, 0.5);
+}
+
+#section {
+    background-color: white;
+    color: rgb(190, 190, 190);
+}
+
+hr {
+    border: 1px solid rgb(243, 243, 243);
+}
