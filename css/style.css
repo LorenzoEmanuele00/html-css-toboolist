@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Almarai', sans-serif;
+}
+
+header h1{  /* title */
+    display: inline-block;
+    vertical-align: middle;
+    /* ricordati font */
+}
+
+header img {
+    vertical-align: middle;
+}
+
+.container-title {
+    padding: 10px 20px;
+}
+
