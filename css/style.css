@@ -107,3 +107,40 @@ li ul {
     vertical-align: middle;
     margin-right: 5px;
 }
+
+.tags {
+    display: inline-block;
+    height: 20px;
+    border-radius: 8px;
+    font-size: 9px;
+    color: white;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.editorial {
+    background-color: rgb(36, 164, 244);
+}
+
+.q1 {
+    background-color: rgb(157, 38, 204);
+}
+
+.recruiting {
+    background-color: rgb(63, 133, 63);
+}
+
+.mobile {
+    background-color: rgb(205, 135, 4);
+}
+
+.website {
+    background-color: pink;
+}
+
+.sale{
+ background-color: rgb(136, 248, 95);
+}
