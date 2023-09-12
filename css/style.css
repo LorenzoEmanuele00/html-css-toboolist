@@ -34,12 +34,13 @@ main {
     
 }
 
+/* BUTTONS */
 nav { /* button position */
     margin-left: 10%;
     margin-bottom: 10px;
 }
 
-div button {
+div button { /* button border */
     padding: 5px;
     border-radius: 5px;
     border: 1px solid rgb(174, 174, 174);
@@ -58,7 +59,8 @@ hr {
     border: 1px solid rgb(243, 243, 243);
 }
 
-section {
+/* LIST */
+section { /* section position */
     margin-top: 30px;
     margin-left: 10%;
     margin-bottom: 10px;
@@ -72,8 +74,36 @@ li strong {
     font-size: 25px;
 }
 li {
-    margin: 10px;
+    margin: 15px;
+    vertical-align: middle;
 }
 li ul {
     margin-bottom: 30px;
+    margin-left: 2%;
+}
+
+.circle {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 177, 18);
+    color: rgb(0, 177, 18);
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.circle-neg {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    border: 1px solid rgb(177, 0, 0);
+    color: rgb(177, 0, 0);
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
 }
